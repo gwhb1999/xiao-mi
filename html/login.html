@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css"/>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="../images/logo_07.jpg"/>
+            </div>
+            <div class="logo_1">
+                <h2>小米商城</h2>
+                <h3>让每个人都能享受科技的乐趣</h3>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="container">
+                <div class="register">
+                    <div class="login">
+                        <ul>
+                            <li><a href="#">帐号登录</a></li>
+                            <li><a href="#">扫码登录</a></li>
+                        </ul>
+                    </div>
+                    <form class="login-form" onsubmit="return false" autocomplete="off">
+                        <input type="text" class="email" name="username" required="required" placeholder="邮箱/手机号码/小米ID"/>
+                        <input type="password" class="password" name="password" required="required" placeholder="密码"/>
+                        <button type="submit" class="btn" name="login-btn">登录</button>
+                        <div class="hint">
+                            <div class="phone_login">
+                                <a href="register.html">手机短信登录/注册</a>
+                            </div>
+                            <div class="forget_password">
+                                <ul>
+                                    <li><a href="#">立即注册</a></li>
+                                    <li>|</li>
+                                    <li><a href="#">忘记密码</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </form>
+                   
+                    <div class="externalLinks">
+                        <hr>
+                        <div class="way">
+                            其他方式登录
+                        </div>
+                        <ul class="externalLinks_1">
+                            <li><a href="#"><img src="../images/waibulianjie_07.jpg"/></a></li>
+                            <li><a href="#"><img src="../images/waibulianjie_09.jpg"/></a></li>
+                            <li><a href="#"><img src="../images/waibulianjie_11.jpg"/></a></li>
+                            <li><a href="#"><img src="../images/waibulianjie_13.jpg"/></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <ul class="nav">
+                    <li><a href="#">简体</a></li>
+                    <li>|</li>
+                    <li><a href="#">繁体</a></li>
+                    <li>|</li>
+                    <li><a href="#">English</a></li>
+                    <li>|</li>
+                    <li><a href="#">常见问题</a></li>
+                    <li>|</li>
+                    <li><a href="#">隐私政策</a></li>
+                </ul>
+                <div class=" versions">
+                    <span>小米公司版权所有-京ICP备10046444-</span>
+                    <img src="../images/nationalEmblem.jpg"/>
+                    <span>京公网安备11010802020134号-京ICP证110507号</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/login.js"></script>
+    <script>
+        login.init('.login-form');
+    </script>
+
+</body>
+</html>

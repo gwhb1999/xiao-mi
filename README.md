@@ -1,1 +1,1 @@
-# xiao-mi
+# xiaomi
