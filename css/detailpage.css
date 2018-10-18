@@ -1,0 +1,862 @@
+*{
+    padding:0;
+    margin:0;
+}
+.black-nav{
+    width:100%;
+    height:40px;
+    background:#333333;
+    float:left;
+}
+.container{
+    width:1226px;
+    height:100%;
+    margin:0 auto;
+}
+li{
+    list-style: none;
+}
+a{
+    color:black;
+    text-decoration-line: none;
+}
+.black-nav-xiaomi{
+    margin-top:10px;
+    float:left;
+}
+.black-nav-xiaomi li{
+    float:left;
+    color:#3d423d;
+    padding-right:3px;
+}
+.black-nav-xiaomi li a{
+    font-size:12px;
+    color:#b0b0b0;
+}
+.black-nav-xiaomi li:hover a{
+    color:white;
+}
+.login-reg{
+    float:right;
+    margin-right:145px;
+    margin-top:10px;
+}
+.login-reg li{
+    float:left;
+    padding-right:3px;
+    color:#3d423d;
+}
+.login-reg li a{
+    color:#b0b0b0;
+    font-size:12px;
+}
+.shop-car{
+    width:120px;
+    height:40px;
+    background:white;
+    float:right;
+    margin-right:-274px;
+    text-align: center;
+    position: relative;
+}
+.shop-car .icon-gouwuche{
+    font-size:12px;
+    display: block;
+    float:left;
+    margin-left:30px;
+    margin-top:14px;
+}
+.shop-car:hover .icon-gouwuche{
+    color:#ff6700;
+    font-size:12px;
+}
+.shop-car .car{
+    font-size:12px;
+    color:#b0b0b0;
+    margin-left:10px;
+    float:left;
+    margin-top:14px;
+}
+.shop-car:hover .car{
+    color:#ff6700;
+}
+.car-show{
+    width:316px;
+    height:92px;
+    background:white;
+    position: absolute;
+    top:40px;
+    left:-195px;
+    display: none;
+    text-align: center;
+    line-height: 92px;
+    box-shadow: 0px 5px 10px 0 gray; 
+    z-index: 2;
+}
+.banner-head{
+    width:100%;
+    height:100px;
+    border-bottom:1px solid #e0e0e0;
+    /* overflow: hidden; */
+    position: relative;
+    float:left;
+}
+.logo-index{
+    margin-top:22px;
+    float:left;
+}
+.classification{
+  float:left;
+  margin-left:67px;
+  position: relative;
+  height:100px;
+  line-height: 100px;
+}
+.classification:hover .fic-son{
+    display: block;
+}
+.fic-son{
+    width:232px;
+    height:458px;
+    border:1px solid #ff6700;
+    position: absolute;
+    background:white;
+    top:100px;
+    left:-122px;
+    display: none;
+    z-index: 4;
+}
+.fic-son li{
+    /* margin-top:20px; */
+    width:232px;
+    height:42px;
+    line-height:42px;
+}
+.fic-son li:hover{
+    background:#ff6700;
+}
+.fic-son .phone{
+    margin-top:20px;
+    position: relative;
+}
+.fic-son li a{
+    font-size:14px;
+    display: block;
+    margin-left:30px;
+}
+.phone-show{
+    width:992px;
+    height:458px;
+    position: absolute;
+    left:233px;
+    top:-20px;
+    border:1px solid #b0b0b0;
+    display: none;
+    background:white;
+}
+.phone-show ul{
+    width:156px;
+    height:420px;
+    float:left;
+    margin-left:26px;
+    margin-right:91px;
+    margin-top:22px;
+    /* float:left; */
+}
+.phone-show .no-right{
+    position: relative;
+    left:810px;
+    top:-442px;
+}
+.phone-show ul li{
+    margin-bottom:33px;
+}
+.phone-show ul li a{
+    height:40px;
+    line-height:40px;
+    display: block;
+}
+.phone-show ul li a p{
+    margin-left:48px;
+    margin-top:-55px;
+}
+.tv-show{
+    display: none;
+    margin-top:20px;
+}
+.xiaomi-nav{
+    width:596px;
+    height:55px;
+    float:left;
+    margin-top:43px;
+    margin-left:42px;
+}
+.xiaomi-nav li{
+    float:left;
+    padding-right:19px;
+}
+.xiaomi-nav .nav-all .no-right{
+    padding-right:0;
+}
+.xiaomi-nav li a{
+    font-size:16px;
+}
+.xiaomi-nav .nav-show{
+    width:100%;
+    height:229px;
+    position: absolute;
+    top:100px;
+    right:0px;
+    box-shadow: 0px 5px 10px 0 gray; 
+    display: none;
+    background:white;
+    z-index: 4;
+}
+.nav-show ul{
+    margin-left:117px;
+}
+.nav-show ul .nav-main{
+    width:94px;
+    height:197px;
+    float:left;
+    box-sizing: border-box;
+}
+.nav-show ul li{
+    width:1px;
+    height:100px;
+    margin-right:55px;
+}
+.nav-show .no-right{
+    margin-right:0;
+}
+.nav-show .new{
+    width:64px;
+    height:20px;
+    border:1px solid #ff6700;
+    margin:0 auto;
+    line-height:20px;
+    text-align: center;
+    color:#ff6700;
+}
+.nav-son img{
+    margin-top:15px;
+}
+.nav-main .type{
+    margin-left:7px;
+    margin-top:21px;
+    font-size:12px;
+}
+.nav-main .money{
+    margin-left:18px;
+    margin-top:9px;
+    font-size:12px;
+    color:#ff6700;
+}
+.nav-all .red-mi{
+    display: none;
+}
+.headline{
+    height:63px;
+    width:100%;
+    top:140px;
+    float:left;
+}
+.headline h3{
+    margin-left:62px;
+    margin-top:21px;
+    font-weight: normal;
+    font-size:20px;
+    float:left;
+}
+.headline-nav{
+    float:right;
+    /* margin-right:63px;
+    margin-top:21px; */
+    margin-top:-60px;
+}
+.headline-nav li{
+    float: left;
+    color:#616161;
+    margin-right:7px;
+}
+.headline-nav li a{
+    font-size:16px;
+    color:#616161;
+}
+.headline-nav li:hover a{
+    color:#ff6700;
+}
+.xiaomi-main{
+    width:100%;
+    height:765px;
+}
+.main-lunbo{
+    width:560px;
+    height:560px;
+    background:peru;
+    float:left;
+    overflow: hidden;
+}
+.imgbox{
+    width:99999px;
+    height:560px;
+    position: relative;;
+}
+.imgbox li{
+    float:left;
+}
+.mess-granmother{
+    width:633px;
+    height:563px;
+    overflow: hidden;
+    float:left;
+    margin-left:69px;
+}
+.mess-mother{
+    width:650px;
+    height:563px;
+    overflow-y: scroll;
+}
+.message{
+    width:606px;
+    height:1266px;
+    background:white;
+    float:right;
+    /* margin-right:63px; */
+    /* margin-top:22px; */
+}
+.message h2{
+    font-weight: normal;
+    font-size:24px;
+}
+.particular{
+    color:#b0b0b0;
+    font-size:12px;
+    margin-top:13px;
+}
+.particular b{
+    font-weight: normal;
+    color:#ff6700;
+}
+.message .money{
+    color:#ff6700;
+    font-size:20px;
+    margin-top:17px;
+}
+.complimentary{
+    width:606px;
+    height:51px;
+    border-top:1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    margin-top:21px;
+}
+.complimentary .comp{
+    width:80px;
+    height:25px;
+    background:#ff6700;
+    color:white;
+    font-size:14px;
+    text-align: center;
+    line-height: 25px;
+    margin-top:11px;
+    float:left;
+    margin-right:8px;
+}
+.complimentary .tel-charge{
+    margin-top:17px;
+    font-size:14px;
+}
+.adress{
+    width:606px;
+    height:102px;
+    border-top:1px solid #e0e0e0;
+    border-bottom:1px solid #e0e0e0;
+    margin-top:40px;
+    background:#fafafa;
+}
+.adress img{
+    margin-left:22px;
+    margin-top:31px;
+    float:left;
+}
+.adress-infor{
+    width:514px;
+    height:21px;
+    margin-left:12px;
+    float:left;
+    margin-top:30px;
+}
+.adress-infor .items{
+    font-size:16px;
+    margin-right:13px;
+}
+.adress-infor .change{
+    color:#ff6700;
+    cursor: pointer;
+    position: relative;
+}
+.change-show{
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.5);
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    z-index: 5;
+    display: none;
+}
+.change-show-box{
+    width:606px;
+    height:247px;
+    background:white;
+    float:right;
+    position: fixed;
+    right:60px;
+    top:280px;
+    z-index: 6;
+    display: none;
+    border:1px solid #ff6700;
+}
+.close{
+    width:11px;
+    height:10px;
+    float:right;
+    margin-right:33px;
+    margin-top:20px;
+}
+.change-show-box .search-txt{
+    width:544px;
+    height:44px;
+    border:1px solid #b0b0b0;
+    margin-top:30px;
+    margin-left:30px;
+    background:url(../images/66_06.jpg) no-repeat 19px center;
+    padding-left:55px;
+    box-sizing: border-box;
+}
+.change-show-box .hand-movement{
+    width:546px;
+    height:38px;
+    border-bottom:1px solid #b0b0b0;
+    margin-left:30px;
+    text-align: right;
+    line-height: 38px;
+}
+.hand-movement a{
+    font-size:16px;
+    color:#757575;
+}
+.hand-movement:hover a{
+    color:#ff6700;
+}
+.my-adress{
+    margin-left:29px;
+    margin-top:25px;
+    color:#b0b0b0;
+    font-size:16px;
+}
+.adress-login{
+    font-size:16px;
+    color:#b0b0b0;
+    margin-left:190px;
+    margin-top:29px;
+}
+.adress-login a{
+    color:#ff6700;
+}
+.quantity{
+    color:#ff6700;
+}
+.versions{
+    width:606px;
+    height:137px;
+    margin-top:40px;
+}
+.versions h2{
+    font-size:20px;
+    font-weight: normal;
+}
+.versions li{
+    width:298px;
+    height:42px;
+    border:1px solid #b0b0b0;
+    margin-top:17px;
+    margin-left:1px;
+    text-align: center;
+    line-height:42px;
+    float:left;
+    position: relative;
+}
+.versions li:hover{
+    cursor: pointer;
+}
+.versions .have-right{
+    margin-left:10px;
+}
+.versions .db{
+    margin-top:5px;
+}
+.versions li b{
+    font-weight: normal;
+    color:#b0b0b0;
+    margin-left:59px;
+}
+.select-color{
+    width:606px;
+    height:138px;
+    margin-top:29px;
+}
+.select-color h2{
+    font-weight: normal;
+    font-size:20px;
+}
+.select-color li{
+    width:298px;
+    height:42px;
+    border:1px solid #b0b0b0;
+    float:left;
+    margin-top:15px;
+    line-height: 42px;
+    text-align: center;
+}
+.select-color li:hover{
+    cursor: pointer;
+}
+.select-color li img{
+    margin-right:16px;
+}
+.select-color .color-bottom{
+    margin-top:10px;
+}
+.save-server{
+    width:606px;
+    height:313px;
+    background:white;
+    margin-top:30px;
+}
+.save-server h3{
+    font-weight: normal;
+    font-size:20px;
+}
+.save-server p{
+    float:right;
+    margin-top:-25px;
+    font-size:14px;
+    color:#ff6700;
+}
+.save-server .box1{
+    width:604px;
+    height:139px;
+    border:1px solid #e0e0e0;
+    margin-top:15px;
+}
+.save-server .no-top{
+    border-top:none;
+    margin-top:0px;
+}
+.server-box .check-box{
+    margin-left:41px;
+    margin-top:53px;
+    float:left;
+}
+.server-box img{
+    margin-left:26px;
+    margin-top:34px;
+    float:left;
+}
+.server-box .addicdent{
+    float:left;
+    font-size:18px;
+    color:black;
+    margin-top:25px;
+    margin-left:20px;
+}
+.server-box .dent{
+    float:left;
+    color:#b0b0b0;
+    font-size:14px;
+    margin-top:55px;
+    margin-left:-110px;
+}
+.server-box .addicdent-server{
+    width:280px;
+    height:16px;
+    float:left;
+    margin-top:80px;
+    margin-left:-195px;
+}
+.server-box .addicdent-server li{
+    float:left;
+    margin-right:8px;
+}
+.server-box .addicdent-server li b{
+    font-weight:normal;
+    color:#ff6700;
+}
+.box1 .money{
+    color:#757575;
+    float:right;
+    font-size:15px;
+    margin-top:85px;
+}
+.server-box .box2{
+    margin-top:0px;
+}
+.server-box .box2 .addicdent-server{
+    margin-left:-110px;
+}
+.xiaomi-money{
+    width:606px;
+    height:140px;
+    background:#f9f9fa;
+    margin-top:20px;
+    overflow: hidden;
+}
+.xiaomi-money .information{
+    color:#616161;
+    font-size:14px;
+    margin-top:38px;
+    margin-left:29px;
+}
+.xiaomi-money .all-money{
+    margin-left:29px;
+    margin-top:32px;
+    font-size:24px;
+    color:#ff6700;
+}
+.join-car{
+    width:300px;
+    height:54px;
+    background:#ff6700;
+    color:white;
+    border:none;
+    outline: none;
+}
+.like{
+    width:142px;
+    height:54px;
+    border:none;
+    outline: none;
+    background:#b0b0b0;
+    line-height: 54px;
+    text-align: center;
+    margin-left:10px;
+    margin-top:0px;
+}
+.like img{
+    margin-right:5px;
+}
+.repair{
+    width:387px;
+    height:21px;
+    float:left;
+    line-height: 21px;
+}
+.repair li{
+    float:left;
+    font-size:12px;
+    color:#b0b0b0;
+}
+.repair img{
+    margin-left:6px;
+}
+.footer{
+    width:100%;
+    height:437px;
+    margin-top:103px;
+}
+.footer-top{
+    width:1226px;
+    height:79px;
+    float:left;
+    border-bottom:1px solid #e0e0e0;
+}
+.footer-top .header{
+    width:1226px;
+    height:25px;
+    margin-top:27px;
+}
+.header li{
+    width:242px;
+    float:left;
+    text-align: center;
+    border-right:1px solid #e0e0e0;
+    background:url(../images/42_03.jpg) no-repeat 48px center;
+}
+.header li:hover{
+    background:url(../images/45_03.jpg) no-repeat 48px center;
+}
+.header li a:hover{
+    color:#ff6700;
+}
+.header .no-right{
+    border:0;
+}
+.footer-nav{
+    width:975px;
+    height:111px;
+    margin-top:42px;
+    float:left;
+    border-right:1px solid #e0e0e0;
+}
+.help{
+    width:57px;
+    height:111px;
+    float:left;
+    margin-right:103px;
+}
+.footer-nav .no-right{
+    margin-right:0;
+}
+.help h3{
+    font-size:12px;
+    color:black;
+    font-weight: normal;
+}
+.help ul{
+    margin-top:32px;
+}
+.help li a{
+    font-size:12px;
+    color:#757575;
+}
+.help li:hover a{
+    color:#ff6700;
+}
+.contact-way{
+    width:251px;
+    height:112px;
+    float:right;
+    margin-top:-120px;
+}
+.contact-way .tel{
+    margin-left:57px;
+    font-size:20px;
+    color:#ff6700;
+}
+.work-time{
+    font-size:12px;
+    color:#616161;
+    margin-top:11px;
+    margin-left:64px;
+}
+.ps{
+    margin-top:11px;
+    margin-left:87px;
+    font-size:12px;
+    color:#616161;
+}
+.kefu{
+    width:118px;
+    height:28px;
+    border:1px solid #ff6700;
+    margin-top:4px;
+    margin-left:65px;
+    line-height: 28px;
+    text-align: center;
+    color:#ff6700;
+    font-size:12px;
+    padding-left:10px;
+    box-sizing: border-box;
+    background:white url(../images/43_08.jpg) no-repeat 28px center;
+}
+.kefu:hover{
+    background:#ff6700 url(../images/44_03.jpg) no-repeat 28px center;
+    color:white;
+}
+.feedback{
+    width:756px;
+    height:57px;
+    float:left;
+    margin-top:69px;
+}
+.son-logo{
+    float:left;
+}
+.reference{
+    width:690px;
+    height:47px;
+    float:right;
+    margin-top:2px;
+}
+.ref li{
+    float:left;
+    line-height: 12px;
+    text-align: center;
+    color:#757575;
+    padding-right:3px;
+}
+.ref li:hover a{
+    color:#ff6700;
+}
+.ref li a{
+    font-size:12px;
+    color:#757575;
+}
+.ref-son{
+    width:629px;
+    height:12px;
+    line-height: 12px;
+}
+.ref-son li{
+    float:left;
+}
+.ref-son li:hover a{
+    color:#ff6700;
+}
+.ref-son li a{
+    font-size:12px;
+    color:#b0b0b0;
+}
+.illegal{
+    width:578px;
+    height:12px;
+    font-size:12px;
+    color:#b0b0b0;
+    margin-top:-5px;
+}
+.brand{
+    width:433px;
+    height:28px;
+    float:right;
+    margin-top:77px;
+}
+.brand img{
+    float:left;
+    margin-right:6px;
+}
+.bras{
+    width:342px;
+    height:27px;
+    float:right;
+}
+.bras li{
+    width:80px;
+    height:27px;
+    float:left;
+    line-height:12px;
+    margin-right:12px;
+}
+.bras #no-right{
+    position: relative;
+    left:265px;
+    top:-27px;
+}
+.bras li a{
+    font-size:12px;
+    color:#868686;
+}
+.bras li img{
+    margin-top:4px;
+}
+.up{
+    position:fixed;
+    bottom:71px;
+    right:35px;
+    width:25px;
+    height:39px;
+    background:white;
+    border:none;
+    outline: none;
+}
